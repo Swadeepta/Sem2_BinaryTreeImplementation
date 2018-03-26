@@ -22,7 +22,7 @@ class bstree{
     if (root == NULL){
       root=temp;
     }
-    if (tree != NULL){               //self-explanatory
+    if (tree != NULL){               
       if (temp->data > tree->data){
         if (tree->right != NULL){
           insert(tree->right,temp->data);}
